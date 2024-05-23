@@ -1,0 +1,548 @@
+:root {
+    --black: #1e1e1f;
+    --rougatre: #dc325c;
+    --gris-noiratre: #404040;
+    --whitat: #fafafa;
+    --fraise: #f2cdd6;
+    --prefraise: #de607f;
+    --rougsombre: #c41742;
+}
+
+body {
+    font-family: nunito sans-serif;
+}
+
+/* navbar */
+.logo {
+    width: 200px;
+}
+
+header {
+    /* position: fixed;
+    left: 0;
+    top: 0;
+    right: 0; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(white);
+    box-shadow: 0 0 10px var(--gris-noiratre);
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    color: var(--black);
+}
+
+
+.form button {
+    border-radius: 50px;
+    padding: 10px;
+    width: 90px;
+    font-weight: bold;
+    color: var(--whitat);
+    background-color: var(--rougsombre);
+    margin: 5px;
+    border: none;
+}
+
+.form select {
+    border: none;
+    font-weight: bold;
+}
+
+.navbar ul {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li {
+    margin-left: 50px;
+    height: 50px;
+
+}
+
+.navbar li :hover {
+    padding: 40px 0;
+    border-bottom: 3px solid var(--rougatre);
+
+}
+
+/* L'ouverture de la fabrique  */
+.ouverture {
+    background-color: var(--whitat);
+    height: 50vh;
+}
+
+
+.ouverture h1 {
+    font-size: 40px;
+    text-align: center;
+    color: var(--rougsombre);
+    font-weight: bold;
+    margin: 5px;
+}
+
+.ouverture div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ouv1 {
+    background-color: var(--rougsombre);
+    height: 110px;
+    width: 100%;
+    border-radius: 0 0 50px;
+    box-shadow: 0px 10px var(--prefraise), 0 20px var(--fraise);
+    margin-left: 250px;
+}
+
+.ouv1 p {
+    font-size: 30px;
+    color: var(--whitat);
+    font-weight: bold;
+}
+
+.text {
+    background-color: white;
+    border: 1px solid var(--prefraise);
+    margin-right: 200px;
+    height: 30vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    position: relative;
+    height: 400px;
+    z-index: 1;
+    box-shadow: 0 0 5px;
+    border-radius: 8px;
+}
+
+.backred {
+    background-color: var(--rougsombre);
+    border: 2px solid var(--rougsombre);
+    margin-right: 5px;
+    position: absolute;
+    width: 350px;
+    transform: rotate(4deg);
+    height: 400px;
+    z-index: 1;
+    right: 220px;
+    bottom: 430px;
+    box-shadow: 0 0 5px;
+    border-radius: 8px;
+}
+
+.point {
+    border-radius: 100px;
+    padding: 5px;
+    width: 2px;
+    background-color: var(--rougsombre);
+}
+
+#point {
+    border-radius: 100px;
+    padding: 5px;
+    width: 20px;
+    background-color: var(--rougsombre);
+}
+
+
+.ouverture .list-point {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* 
+Notre Pedagogie */
+.pedagogie {
+    background-color: white;
+}
+
+.pedagogie h1 {
+    font-size: 40px;
+    text-align: center;
+    color: var(--rougsombre);
+    font-weight: bold;
+}
+
+.contener-pedago {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.text-video h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--rougsombre);
+}
+
+/* 
+les six pilier */
+
+
+.pilier {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--whitat);
+}
+
+
+.contener-pilier {
+    display: grid;
+    grid-template-rows: repeat(3, fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.compt {
+    background-color: var(white);
+    border-bottom: 4px solid var(--rougsombre);
+    box-shadow: 0 0 4px var(--black);
+    border-radius: 8px;
+}
+
+.compt h1 {
+    color: var(--rougsombre);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.compt h3 {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pilier .troisfem {
+    margin-right: 200px;
+    height: 30vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 350px;
+    position: relative;
+    height: 500px;
+    z-index: 1;
+    box-shadow: 0 0 5px;
+
+}
+
+.pilier .back-img {
+    position: absolute;
+    background-color: var(--rougsombre);
+    border: 2px solid var(--rougsombre);
+    margin-right: 5px;
+    width: 350px;
+    height: 500px;
+    z-index: 1;
+    right: 350px;
+    box-shadow: 0 0 5px;
+    border-radius: 8px;
+}
+
+
+
+
+/* Nos valeurs */
+
+.valeur h5 {
+    font-size: 40px;
+    text-align: center;
+    color: var(--rougsombre);
+    font-weight: bold;
+}
+
+.contener-valeur {
+    display: flex;
+    justify-content: space-around;
+}
+
+.number {
+    display: flex;
+    gap: 20px;
+}
+
+.text-avec-btn h1 {
+    color: var(--rougsombre);
+}
+
+.text-avec-btn button {
+    border-radius: 50px;
+    padding: 10px;
+    width: 90px;
+    font-weight: bold;
+    color: var(--whitat);
+    background-color: var(--rougsombre);
+    margin: 5px;
+    border: none;
+}
+
+.respect {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--rougsombre);
+    height: 50%;
+}
+
+.numérique {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: yellow;
+    text-align: center;
+}
+
+
+
+
+
+/* Nos chiffre */
+
+
+.style p {
+    color: white;
+    font-weight: bolder;
+}
+
+.style h2 {
+    color: white;
+    font-size: 30px;
+}
+
+/* Nos chiffre */
+
+.chiffre h1 {
+    font-size: 40px;
+    text-align: center;
+    color: var(--rougsombre);
+    font-weight: bold;
+}
+
+.contener-chiffre {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--rougsombre);
+}
+
+/* 
+
+Nos equipes */
+.equipe-text {
+    text-align: center;
+}
+
+.equipe-text h1 {
+    color: var(--rougsombre);
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.equipe-text p {
+    color: var(--black);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.contener-equipe {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formateur {
+    background-color: aqua;
+    width: 200px;
+    box-shadow: 0 0 4px var(--black);
+}
+
+.formateur .rong {
+    width: 100px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+
+
+/* Recrutement */
+
+
+.Recrutement h1 {
+    font-size: 40px;
+    text-align: center;
+    color: var(--rougsombre);
+    font-weight: bold;
+}
+
+.contener-recrutement {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.ma-ligne {
+    border-bottom: 1px solid var(--rougsombre);
+    width: 200px;
+}
+
+.ligne-plus-gras {
+    border-bottom: 3px solid var(--rougsombre);
+    width: 20px;
+}
+
+.contener-tout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-a;
+}
+
+.formular {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+Nos partenaire */
+
+.partenaire {
+    height: 70vh;
+}
+
+.partenaire h1 {
+    color: var(--rougsombre);
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+
+.contener-partenaire {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    align-items: center;
+
+}
+
+.contener-partenaire .img {
+    width: 150px;
+
+}
+
+
+/* 
+Avant-footer */
+.avant-footter {
+    background-color: var(--black);
+    height: 30vh;
+}
+
+
+.logoblanc {
+    width: 150px;
+    color: white;
+}
+
+
+.contener-avant-footer .logo-et-foo {
+    width: 10px;
+}
+
+.icone {
+    color: var(--rougsombre);
+}
+
+.contener-avant-footer .txt-1 {
+    color: white;
+}
+
+
+.contener-avant-footer .txt-2 {
+    color: white;
+}
+
+
+.contener-avant-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.my-input {
+    color: white;
+}
+
+
+.my-input input {
+    width: 70%;
+    height: 35px;
+    border-radius: 8px;
+}
+
+.my-input button {
+    width: 25%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: var(--rougsombre);
+
+}
+
+
+
+footer {
+    display: flex;
+    background-color: var(--rougsombre);
+    height: 50px;
+    justify-content: space-between;
+}
+
+
+.copyright {
+    display: flex;
+    color: var(--whitat);
+    font-weight: bold;
+}
+
+.simplon {
+    display: flex;
+    color: white;
+}
+
+.simplon #sim {
+    color: var(white);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.simplon span {
+    color: black;
+}
