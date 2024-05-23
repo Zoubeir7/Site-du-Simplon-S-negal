@@ -276,6 +276,9 @@ les six pilier */
 .number {
     display: flex;
     gap: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 0 5px;
 }
 
 .text-avec-btn h1 {
@@ -296,8 +299,9 @@ les six pilier */
 .respect {
     display: flex;
     flex-direction: column;
-    background-color: var(--rougsombre);
-    height: 50%;
+    background-color: var(--whitat);
+    /* width: 50%; */
+    margin: 12px;
 }
 
 .numérique {
