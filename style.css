@@ -304,12 +304,9 @@ les six pilier */
     width: 50px;
     aspect-ratio: 1;
     border-radius: 50%;
-    background-color: yellow;
+    background-color: var(--prefraise);
     text-align: center;
 }
-
-
-
 
 
 /* Nos chiffre */
@@ -365,9 +362,10 @@ Nos equipes */
 }
 
 .formateur {
-    background-color: aqua;
+    background-color: white;
     width: 200px;
     box-shadow: 0 0 4px var(--black);
+    border-radius: 8px;
 }
 
 .formateur .rong {
