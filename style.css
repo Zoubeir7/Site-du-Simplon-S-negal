@@ -129,6 +129,23 @@ header a {
     border-radius: 8px;
 }
 
+.text div {
+    align-content: center;
+}
+
+.text p {
+    align-content: center;
+}
+
+.paragraph h2 {
+    color: var(--fraise);
+    font-size: 70px;
+}
+
+.paragraph {
+    align-content: center;
+}
+
 .backred {
     background-color: var(--rougsombre);
     border: 2px solid var(--rougsombre);
@@ -513,7 +530,6 @@ Avant-footer */
     height: 30vh;
 }
 
-
 .logoblanc {
     width: 150px;
     color: white;
@@ -571,17 +587,46 @@ Avant-footer */
     height: 40px;
     border-radius: 10px;
     background-color: white;
+    margin-bottom: 10px;
+    box-shadow: none;
+    color: var(--whitat);
 }
 
 .formular textarea {
-    width: 75%;
+    width: 710px;
     height: 200px;
     border-radius: 10px;
-
     background-color: white;
+    color: var(--whitat);
+
 }
 
+.Joindre i {
+    color: var(--rougsombre);
+}
 
+.joindre {
+    color: var(--rougsombre)
+}
+
+.mon.Joindre {
+    position: absolute;
+    right: 0;
+}
+
+.contener-Formt i {
+    color: var(--rougsombre);
+}
+
+.contener-Formt-1 i {
+    color: var(--rougsombre);
+}
+
+.formular {
+    background-color: var(--whitat);
+    box-shadow: 0 0 0px;
+    height: 50vh;
+}
 
 .formular button {
     border-radius: 50px;
@@ -592,7 +637,7 @@ Avant-footer */
     background-color: var(--rougsombre);
     margin: 5px;
     border: none;
-    box-shadow: 0 0 5px;
+
 }
 
 

@@ -28,4 +28,4 @@ Nous tenons à remercier notre formateur mr bakary Fafana
 ---
 
 *cabiné dentaire*  
-Copyright © 2024 - Nature Emoi
+Copyright © 2024 - Simplon Sénegal
