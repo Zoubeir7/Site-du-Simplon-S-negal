@@ -74,7 +74,7 @@ header a {
 
 .navbar li :hover {
     padding: 40px 0;
-    border-bottom: 3px solid var(--rougatre);
+    border-bottom: 5px solid var(--rougsombre);
 
 }
 
@@ -398,7 +398,7 @@ Nos equipes */
 
 .ma-ligne {
     border-bottom: 1px solid var(--rougsombre);
-    width: 200px;
+    width: 350px;
 }
 
 .ligne-plus-gras {
@@ -407,15 +407,63 @@ Nos equipes */
 }
 
 .contener-tout {
-    display: grid;
+
+    display: flex;
+    justify-content: space-around;
+    /* display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: space-a;
+    justify-content: space-around;
+    align-items: center; */
 }
 
-.formular {}
+
+.loffre {
+    background-color: var(--fraise);
+    width: 25%;
+    border-radius: 15px;
+    height: 50vh;
+}
+
+.contener-plant {
+    display: flex;
+
+}
+
+.Formt {
+    display: flex;
+    justify-content: space-between;
+}
 
 
+.plant {
+    background-color: #fafafa;
+    box-shadow: 0 0 5px;
+    border-radius: 15px;
+    width: 35%;
+}
 
+.loffre button {
+    border-radius: 50px;
+    padding: 10px;
+    width: 90px;
+    font-weight: bold;
+    color: var(--whitat);
+    background-color: var(--rougsombre);
+    margin: 5px;
+    border: none;
+
+}
+
+.contener-Formt {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contener-Formt-1 {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
@@ -505,6 +553,7 @@ Avant-footer */
     width: 70%;
     height: 35px;
     border-radius: 8px;
+    background-color: white;
 }
 
 .my-input button {
@@ -517,6 +566,34 @@ Avant-footer */
 
 }
 
+.mon input {
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.formular textarea {
+    width: 75%;
+    height: 200px;
+    border-radius: 10px;
+
+    background-color: white;
+}
+
+
+
+.formular button {
+    border-radius: 50px;
+    padding: 10px;
+    width: 90px;
+    font-weight: bold;
+    color: var(--whitat);
+    background-color: var(--rougsombre);
+    margin: 5px;
+    border: none;
+    box-shadow: 0 0 5px;
+}
 
 
 footer {
