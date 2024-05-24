@@ -329,6 +329,13 @@ les six pilier */
     text-align: center;
 }
 
+.triangle {
+    width: 30px;
+    height: 30px;
+    background-color: var(--rougsombre);
+    clip-path: polygon(100% 0, 100% 100%, 0 50%);
+}
+
 
 /* Nos chiffre */
 
@@ -344,6 +351,7 @@ les six pilier */
 }
 
 /* Nos chiffre */
+
 
 .chiffre h1 {
     font-size: 40px;
@@ -387,6 +395,7 @@ Nos equipes */
     width: 200px;
     box-shadow: 0 0 4px var(--black);
     border-radius: 8px;
+    margin-left: 10px;
 }
 
 .formateur .rong {
@@ -395,9 +404,12 @@ Nos equipes */
     border-radius: 50%;
 }
 
-
+.formateur i {
+    color: var(--rougsombre);
+}
 
 /* Recrutement */
+
 
 
 .Recrutement h1 {
@@ -410,8 +422,14 @@ Nos equipes */
 .contener-recrutement {
     display: flex;
     justify-content: space-around;
+    height: 30vh;
+
 }
 
+
+.contener-recrutement img {
+    width: 500px;
+}
 
 .ma-ligne {
     border-bottom: 1px solid var(--rougsombre);
@@ -427,10 +445,9 @@ Nos equipes */
 
     display: flex;
     justify-content: space-around;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-around;
-    align-items: center; */
+    margin-left: 60px;
+    margin-bottom: 20px;
+
 }
 
 
@@ -456,7 +473,18 @@ Nos equipes */
     background-color: #fafafa;
     box-shadow: 0 0 5px;
     border-radius: 15px;
-    width: 35%;
+    width: 25%;
+}
+
+.plant {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 70px;
+}
+
+.plant i {
+    color: var(--rougsombre);
 }
 
 .loffre button {
@@ -471,6 +499,23 @@ Nos equipes */
 
 }
 
+.loffre h4 {
+    font-size: 30px;
+    color: var(--rougsombre);
+    font-weight: bold;
+}
+
+.loffre h3 {
+    font-size: 20px;
+    color: var(--rougsombre);
+    font-weight: bold;
+}
+
+.loffre h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 .contener-Formt {
     display: flex;
     justify-content: space-between;
@@ -483,7 +528,9 @@ Nos equipes */
 }
 
 
-
+.btn-postuler button {
+    margin-left: 150px;
+}
 
 
 
@@ -533,6 +580,11 @@ Avant-footer */
 .logoblanc {
     width: 150px;
     color: white;
+
+}
+
+.contener-avant-footer .icone {
+    color: var(--whitat);
 }
 
 
@@ -609,6 +661,11 @@ Avant-footer */
     color: var(--rougsombre)
 }
 
+
+.Joindre span {
+    color: var(--rougsombre);
+}
+
 .mon.Joindre {
     position: absolute;
     right: 0;
@@ -639,6 +696,12 @@ Avant-footer */
     border: none;
 
 }
+
+
+/* Footer */
+
+
+
 
 
 footer {
