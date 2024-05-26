@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:wght@200;500;700&display=swap');
+
 :root {
     --black: #1e1e1f;
     --rougatre: #dc325c;
@@ -9,7 +11,9 @@
 }
 
 body {
-    font-family: nunito sans-serif;
+
+    font-family: "Nunito Sans", sans-serif;
+
 }
 
 /* navbar */
@@ -138,9 +142,9 @@ header a {
     align-content: center;
 }
 
-.paragraph h2 {
-    color: var(--fraise);
-    font-size: 70px;
+.paragraph p {
+
+    font-size: 14px;
 }
 
 .paragraph {
@@ -502,7 +506,7 @@ Nos equipes */
     background-color: var(--fraise);
     width: 25%;
     border-radius: 15px;
-    height: 50vh;
+    height: 55vh;
 
 }
 
@@ -642,9 +646,26 @@ Avant-footer */
     width: 10px;
 }
 
-.icone i {
-    color: var(--whitat);
-    margin: 10px;
+.icone #tw:hover {
+    color: rgb(34, 158, 235);
+    font-size: 30px;
+}
+
+.icone #fb:hover {
+    color: rgb(62, 62, 243);
+    font-size: 30px;
+
+}
+
+.icone #in:hover {
+    color: rgb(235, 34, 34);
+    font-size: 30px;
+}
+
+.icone #yt:hover {
+    color: rgb(235, 34, 34);
+    font-size: 30px;
+
 }
 
 .logo-et-img img {
@@ -686,7 +707,7 @@ Avant-footer */
     border: none;
     color: white;
     background-color: var(--rougsombre);
-   cursor: pointer;
+    cursor: pointer;
 }
 
 .mon input {
@@ -754,8 +775,6 @@ Avant-footer */
 
 
 /* Footer */
-
-
 
 
 
